@@ -46,7 +46,7 @@
     </p>
 
     <div style="text-align: center; margin-bottom: 30px;">
-      <a href="https://apps.apple.com/us/app/jem-payments/id1514010969">
+      <a href="https://apps.apple.com/us/app/jem-payments/id1514010969" id="clickDownload">
         <img alt="Download" src="black.svg" width="150" />
       </a>
     </div>
@@ -55,4 +55,9 @@
       Shop local, earn huge rewards
     </h3>
   </body>
+  <script>
+    document.getElementById("clickDownload").addEventListener("click", function(){
+        console.log(window.location.href);
+    });
+  </script>
 </html>
